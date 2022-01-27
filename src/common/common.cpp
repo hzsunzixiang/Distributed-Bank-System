@@ -1,4 +1,5 @@
 #include "common.h"
+#include "string.h"
 
 string Outcome[4]={"", "Processed", "InconsistentWithHistory", "InsufficientFunds"};
 

@@ -16,4 +16,4 @@
 
 
     clean:
-	rm *.o
+	rm *.o client

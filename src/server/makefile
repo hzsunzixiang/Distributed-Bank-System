@@ -25,4 +25,4 @@
 
 
     clean:
-	rm *.o
+	rm *.o server
