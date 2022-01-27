@@ -1,6 +1,6 @@
 #g++ -I  ../common/ -o client.o ../common/common.cpp client.cpp client_read_conf.cpp -lpthread
 #g++ -I ../common/ -o server.o server.cpp ../common/common.cpp server_read_conf.cpp process.cpp -lpthread
-  CFLAGS = -I ../common/
+  CFLAGS = -g  -I ../common/
 
     server: server.o server_client.o server_master.o server_read_conf.o common.o process.o
 	g++ -o  server  server.o server_client.o server_master.o server_read_conf.o common.o process.o -lpthread
